@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="DecodeLabs Full Stack Development Internship Project 1 - Responsive Landing Page" />
+    <title>DecodeLabs | Full Stack Development</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Decode<span>Labs</span><span class="dot">.</span></a>
+
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#skills">Tech Stack</a></li>
+                    <li><a href="#demo">Interactive</a></li>
+                    <li><a href="#contact" class="nav-cta">Get Started</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="pulse"></span>
+                    Batch 2026 &bull; Powered by DecodeLabs
+                </div>
+
+                <h1>
+                    Full Stack <br />
+                    <span class="highlight">Development</span>
+                </h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, laudantium officiis nostrum qui
+                    alias atque illo quod. Quod, quae harum.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">Explore Projects</a>
+                    <a href="#demo" class="btn btn-outline">Try Interactive</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="hero-stats-item">
+                        <span class="number">3</span>
+                        <span class="label">Core Pillars</span>
+                    </div>
+                    <div class="hero-stats-item">
+                        <span class="number">100%</span>
+                        <span class="label">Mobile-First</span>
+                    </div>
+                    <div class="hero-stats-item">
+                        <span class="number">1</span>
+                        <span class="label">Project to Unlock</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge badge-primary">What You'll Build</span>
+                <h2>Three Pillars of <span class="text-gradient">Modern Frontend</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, nobis?</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏗️</div>
+                    <h3>Semantic HTML5</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptates adipisci distinctio
+                        laboriosam perferendis quaerat nobis alias provident soluta repellat?
+                    </p>
+                    <span class="tag">✦ Accessibility First</span>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Modern CSS3</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptates adipisci distinctio
+                        laboriosam perferendis quaerat nobis alias provident soluta repellat?
+
+                    </p>
+                    <span class="tag">✦ 2025 UI/UX</span>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Interactive JavaScript</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptates adipisci distinctio
+                        laboriosam perferendis quaerat nobis alias provident soluta repellat?
+                    </p>
+                    <span class="tag">✦ Vanilla JS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Tech Stack</span>
+                <h2>Your <span class="text-gradient">Toolkit</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, magnam?</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="icon">📄</div>
+                    <h4>HTML5</h4>
+                    <p>Semantic &amp; Accessible</p>
+                </div>
+                <div class="skill-item">
+                    <div class="icon">🎨</div>
+                    <h4>CSS3</h4>
+                    <p>Grid &bull; Flexbox &bull; Queries</p>
+                </div>
+                <div class="skill-item">
+                    <div class="icon">⚡</div>
+                    <h4>JavaScript</h4>
+                    <p>Interactivity &amp; Logic</p>
+                </div>
+                <div class="skill-item">
+                    <div class="icon">📱</div>
+                    <h4>Mobile-First</h4>
+                    <p>Responsive by Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="demo-section" id="demo">
+        <div class="container">
+            <div class="demo-box">
+                <span style="font-size: 2.5rem; display: block; margin-bottom: 0.5rem;">🚀</span>
+                <h2>Live Interaction</h2>
+                <p>Click the button below to see JavaScript in action. This demonstrates basic state management.</p>
+                <button class="demo-btn" id="demoBtn">
+                    <i class="fas fa-play" style="margin-right: 0.5rem;"></i>
+                    Click Me
+                </button>
+                <div id="demoMessage"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Decode<span>Labs</span><span class="dot">.</span></a>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, eum possimus voluptates quo
+                        sapiente ea laboriosam amet architecto voluptas fuga.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#skills">Tech Stack</a></li>
+                        <li><a href="#demo">Interactive</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:Irfanroy534@gmail.com">Irfanroy534@gmail.com</a></li>
+                        <li><a href="tel:+918933006408">+92 3299036925</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 DecodeLabs. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
